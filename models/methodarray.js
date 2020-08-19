@@ -18,28 +18,28 @@ let mangSanPham = [
 // }
 // console.log(MangDTSonny);
 //fiter: tra ve ket qua la 1 mang ocn thoa dieu kien arrow function trong phuong thuc filter
-// let MangDTSonny = [];
-// let MangGiaSP = [];
-// MangDTSonny = mangSanPham.filter(dt => dt.hangSX === 'Sony');
-// MangGiaSP = mangSanPham.filter(sp => sp.gia > 1800);
-// console.log(MangGiaSP);
-//find() tim ra phan tu thoa dieu kien arrow function chi tra ve phan tu dau tien dc tim thay neu khong tim dc thi tra veundefine
-// let dtMa7 = mangSanPham.find(ma => ma.maSP === 1)
-// if (dtMa7) {
-//     console.log(dtMa7);
-// } else {
-//     console.log('Khong Tim Thay');
-// }
+let MangDTSonny = [];
+let MangGiaSP = [];
+MangDTSonny = mangSanPham.filter(dt => dt.hangSX === 'Sony');
+MangGiaSP = mangSanPham.filter(sp => sp.gia > 1800);
+console.log(MangGiaSP);
+// find() tim ra phan tu thoa dieu kien arrow function chi tra ve phan tu dau tien dc tim thay neu khong tim dc thi tra veundefine
+let dtMa7 = mangSanPham.find(ma => ma.maSP === 1)
+if (dtMa7) {
+    console.log(dtMa7);
+} else {
+    console.log('Khong Tim Thay');
+}
 //findindex tuowng tu nhu find nhung khong tim thay thi tra ve -1
 
-// let madt = mangSanPham.findIndex(ma => ma.maSP === 6)
-// if (madt !== -1) {
-//     mangSanPham.splice(madt, 1);
-//     console.log(madt);
-//     console.log(mangSanPham);
-// } else {
-//     console.log('Khong Tim Thay', madt);
-// }
+let madt = mangSanPham.findIndex(ma => ma.maSP === 6)
+if (madt !== -1) {
+    mangSanPham.splice(madt, 1);
+    console.log(madt);
+    console.log(mangSanPham);
+} else {
+    console.log('Khong Tim Thay', madt);
+}
 // //foreach: dùng thực hiện xử lý trên các phần tử của mảng trể về undefine
 // mangSanPham.forEach((dt, madt) => {
 //     console.log(`dt ${madt}`, dt);
