@@ -8,12 +8,9 @@ export default class BaiTapChonXe extends Component {
 
     handelChangeColorcar = (imgColor) => {
         this.setState({
-            imgCar:`./img/CarBasic/products/${imgColor}-car.jpg`
+            imgCar: `./img/CarBasic/products/${imgColor}-car.jpg`
         })
     }
-
-
-
 
     render() {
         return (
@@ -23,7 +20,6 @@ export default class BaiTapChonXe extends Component {
                         <img style={{ width: '100%' }} src={this.state.imgCar}></img>
                     </div>
                     <div className="col-4 border pt-2">
-
                         <div>
                             <p className="text-left bg-secondary border p-1 text-primary">ExterColor</p>
                         </div>
@@ -75,8 +71,6 @@ export default class BaiTapChonXe extends Component {
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
