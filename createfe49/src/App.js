@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import './App.css';
 import Demo from './components/Demo';
 import DemoHeader from './components/DemoHeader';
@@ -15,10 +16,14 @@ import HandleEvent from './HandleEvent/HandleEvent';
 // import Menu from './components/btlayout1/Menu';
 // import Footer from './components/btlayout1/Footer';
 // import Content from './components/btlayout1/Content';
+=======
+import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
+>>>>>>> buoi2
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       {/* <Header />
       <div class="row">
         <div className="col-4 menu">
@@ -38,6 +43,9 @@ function App() {
       <Promotion /> */}
       {/* <DataBingding /> */}
       <HandleEvent />
+=======
+      <BaiTapChonXe />
+>>>>>>> buoi2
     </div>
   );
 }

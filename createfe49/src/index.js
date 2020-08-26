@@ -5,7 +5,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
+<<<<<<< HEAD
     <App />,
+=======
+
+    <App />,
+
+>>>>>>> buoi2
   document.getElementById('root')
 );
 
