@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import './App.css';
 import Demo from './components/Demo';
 import DemoHeader from './components/DemoHeader';
